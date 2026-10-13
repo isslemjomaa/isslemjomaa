@@ -2,8 +2,6 @@
   <img src="header.svg" width="100%" alt="Islem Jomaa — Industrial Computer Engineer"/>
 </p>
 
-<h3 align="center">Industrial Computer Engineer | AI & Computer Vision | 3D Perception | Robotics</h3>
-
 <p align="center">
   <a href="https://github.com/isslemjomaa">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1200&color=36BCF7&center=true&vCenter=true&width=700&lines=Building+intelligent+systems;Exploring+3D+LiDAR+perception;Connecting+AI+and+robotics;Turning+data+into+real-world+solutions" alt="Typing introduction"/>
