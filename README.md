@@ -110,19 +110,56 @@ class Islem:
 
 ## 💼 Experience
 
-```
-📍 Sept 2026 – Present   Research Collaborator      VIDLab, Canada (Remote)
-                         → Multimodal multi-drone object detection & tracking
-
-📍 Apr – Aug 2026        AI Engineer Intern (PFE)   Lakehead University, Canada
-                         → LiDAR point cloud analysis: classification → semantic segmentation
-
-📍 Jun – Aug 2025        AI & Robotics Intern       IMSR Engineering, Tunisia
-                         → LiDAR–camera fusion for 3D object detection
-
-📍 Jun – Jul 2024        IT Intern                  Draexlmaier Group, Tunisia
-                         → PowerApps helpdesk with Power Automate & dashboards
-```
+<table>
+  <tr>
+    <td width="24%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/Sept%202026%20%E2%80%93%20Present-2ea44f?style=for-the-badge"/><br/>
+      <sub>🇨🇦 Canada · Remote</sub>
+    </td>
+    <td valign="top">
+      <b>🔬 Research Collaborator</b><br/>
+      <i>VIDLab · Vision Intelligence and Data Laboratory</i><br/>
+      <sub>Multimodal learning for <b>multi-drone object detection &amp; tracking</b> from aerial data.</sub><br/>
+      <code>Multimodal AI</code> <code>Detection</code> <code>Tracking</code> <code>Drones</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="24%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/Apr%20%E2%80%93%20Aug%202026-2c5364?style=for-the-badge"/><br/>
+      <sub>🇨🇦 Thunder Bay, Canada</sub>
+    </td>
+    <td valign="top">
+      <b>🛰️ AI Engineer Intern (PFE) · Mitacs Globalink</b><br/>
+      <i>Lakehead University</i><br/>
+      <sub>LiDAR point cloud analysis, <b>from classification to semantic segmentation</b>: voxel-based architectures, LiDAR–camera feature fusion, and end-to-end training on HPC.</sub><br/>
+      <code>PyTorch</code> <code>CUDA</code> <code>HPC</code> <code>Point Clouds</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="24%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/Jun%20%E2%80%93%20Aug%202025-203a43?style=for-the-badge"/><br/>
+      <sub>🇹🇳 Tunisia</sub>
+    </td>
+    <td valign="top">
+      <b>🤖 AI &amp; Robotics Intern</b><br/>
+      <i>IMSR Engineering</i><br/>
+      <sub>Dual-stream <b>LiDAR–camera fusion</b> network with a 3D detection head on KITTI, deployed in ROS2 Humble and validated in Gazebo.</sub><br/>
+      <code>PyTorch</code> <code>ROS2</code> <code>Gazebo</code> <code>KITTI</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="24%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/Jun%20%E2%80%93%20Jul%202024-0f2027?style=for-the-badge"/><br/>
+      <sub>🇹🇳 Tunisia</sub>
+    </td>
+    <td valign="top">
+      <b>💻 IT Intern</b><br/>
+      <i>Draexlmaier Group</i><br/>
+      <sub><b>PowerApps helpdesk</b> with Power Automate for ticket automation, alerting and real-time dashboards.</sub><br/>
+      <code>PowerApps</code> <code>Power Automate</code> <code>Dashboards</code>
+    </td>
+  </tr>
+</table>
 
 ---
 
