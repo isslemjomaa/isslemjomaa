@@ -1,5 +1,3 @@
-# 👋 Hi, I'm Islem Jomaa
-
 <p align="center">
   <img src="header.svg" width="100%" alt="Islem Jomaa — Industrial Computer Engineer"/>
 </p>
@@ -24,187 +22,221 @@
   </a>
 </p>
 
+## 👩‍💻 About me
+
+```python
+class Islem:
+    def __init__(self):
+        self.role       = "Industrial Computer Engineer — Intelligent & Interconnected Systems"
+        self.education  = "ENET'COM, Tunisia (Engineering Diploma, 2026)"
+        self.now        = "Research Collaborator @ VIDLab, Canada — Multi-Drone Detection & Tracking"
+        self.previously = "AI Engineer Intern @ Lakehead University (Mitacs Globalink) — LiDAR Segmentation"
+        self.focus      = ["3D Perception", "LiDAR Point Clouds", "Sensor Fusion", "Multimodal AI", "Robotics"]
+        self.languages  = {"Arabic": "Native", "French": "C1", "English": "B2", "German": "A1"}
+
+    def motto(self):
+        return "Turning sensor data into machines that understand the world 🌍"
+```
+
+- 🔭 Currently exploring **multimodal learning for multi-drone object detection and tracking** at VIDLab
+- 🚗 Built **3D perception pipelines for autonomous driving**: voxel-based LiDAR semantic segmentation trained on **HPC clusters**
+- 🤖 Love bridging **deep learning and robotics** with ROS2 & Gazebo
+- 🌱 Open to **research and engineering opportunities** in 3D perception and autonomous systems
+
 ---
 
-## 👩‍💻 About Me
-
-I'm an **Industrial Computer Engineer** specializing in Intelligent and Interconnected Systems, with a strong interest in artificial intelligence, computer vision, robotics, and intelligent perception.
-
-My work focuses on developing practical AI solutions that connect software, sensor data, and real-world systems.
-
-- 🔬 **Research:** Collaborating with VIDLab at Lakehead University on multimodal multi-drone object detection and tracking.
-- 🚗 **3D Perception:** Developed deep learning pipelines for LiDAR semantic segmentation for autonomous driving.
-- 🤖 **Robotics:** Worked on LiDAR–camera fusion, ROS 2, and Gazebo-based simulation.
-- 🏭 **Industrial IT:** Developed a helpdesk application using PowerApps and Power Automate.
-- 🌱 **Currently learning:** Multimodal AI, object detection and tracking, and advanced computer vision.
-- 💼 **Open to:** Junior engineering roles, AI and computer vision opportunities, robotics, and collaborative research projects.
-
-> *Turning sensor data into intelligent systems that understand the world.*
-
----
-
-## 🛠️ Technical Skills
+## 🛠️ Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,pytorch,tensorflow,opencv,sklearn&perline=8" alt="Programming and AI technologies"/>
+  <img src="https://skillicons.dev/icons?i=py,cpp,java,js,pytorch,tensorflow,opencv,sklearn&perline=8" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=ros,arduino,matlab,linux,bash,git,github,vscode&perline=8" alt="Robotics and development tools"/>
+  <img src="https://skillicons.dev/icons?i=ros,arduino,matlab,linux,bash,git,github,vscode&perline=8" />
 </p>
 
-| Category | Technologies |
-|---|---|
-| **Programming** | Python, C/C++, Java, JavaScript, SQL |
-| **AI & Computer Vision** | Machine Learning, Deep Learning, NLP, Multimodal AI, YOLO |
-| **Frameworks & Libraries** | PyTorch, TensorFlow, Keras, OpenCV, Open3D, scikit-learn |
-| **3D Perception** | LiDAR Point Clouds, Semantic Segmentation, LiDAR–Camera Fusion |
-| **Robotics & Embedded Systems** | ROS 2, Gazebo, STM32, ESP32, Arduino, FPGA/VHDL |
-| **Industrial & Engineering Tools** | PowerApps, Power Automate, MATLAB, Simulink, LabVIEW |
-| **Development & Computing** | Git, GitHub, VS Code, Jupyter, CUDA, HPC |
+<p align="center">
+  <img src="https://img.shields.io/badge/Open3D-3D%20Point%20Clouds-1E88E5?style=flat-square"/>
+  <img src="https://img.shields.io/badge/YOLO-Object%20Detection-00FFFF?style=flat-square"/>
+  <img src="https://img.shields.io/badge/CUDA-GPU%20Training-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HPC-SLURM-555555?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Gazebo-Simulation-F58113?style=flat-square"/>
+  <img src="https://img.shields.io/badge/STM32%20%7C%20ESP32-Embedded-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FPGA-VHDL-8E44AD?style=flat-square"/>
+  <img src="https://img.shields.io/badge/PowerApps-Power%20Automate-742774?style=flat-square&logo=powerapps&logoColor=white"/>
+</p>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured projects
 
-### 🛰️ 3D LiDAR Semantic Segmentation
-**Lakehead University · Final-Year Engineering Project · 2026**
-
-Developed a deep learning pipeline for 3D perception in autonomous driving, focusing on semantic segmentation of LiDAR point clouds.
-
-- Implemented voxel-based segmentation architectures.
-- Explored geometric feature learning and LiDAR–camera fusion.
-- Built training and evaluation pipelines using HPC infrastructure.
-- Evaluated approaches on SemanticKITTI and nuScenes.
-
-**Technologies:** PyTorch · CUDA · Cylinder3D · LiDAR · HPC
-
----
-
-### 🚗 [LiDAR–Camera Fusion for 3D Object Detection](https://github.com/isslemjomaa/LiDAR-Camera-Fusion-for-3D-Object-Detection)
-**IMSR Engineering · 2025**
-
-Developed a dual-stream architecture combining LiDAR and camera features for 3D object detection.
-
-- Implemented intermediate feature fusion and a 3D detection head.
-- Integrated the system with ROS 2 Humble.
-- Validated the system in Gazebo simulation using the KITTI dataset.
-
-**Technologies:** PyTorch · ROS 2 · Gazebo · KITTI
-
----
-
-### 🗣️ Human–Robot Interaction with LLMs
-**Academic Project · 2025**
-
-Developed a human–robot interaction system that connects speech recognition and natural language understanding to robotic actions.
-
-- Integrated a LLaMA-based language-processing module.
-- Used ROS 2 and Gazebo for robot interaction and simulation.
-
-**Technologies:** LLaMA · NLP · ROS 2 · Gazebo
-
----
-
-### ☀️ [Solar Panel Dust Detection](https://github.com/isslemjomaa/-Solar-Panel-Dust-Detection)
-**PFA · 2024–2025**
-
-Built a deep learning solution to classify dust accumulation on solar panels and support automated monitoring.
-
-- Trained CNN and VGG16 models.
-- Developed web interfaces for monitoring and notifications.
-
-**Technologies:** Python · TensorFlow · VGG16 · Computer Vision
-
----
-
-### 🏭 Industrial Defect Detection
-**Academic Project · 2025**
-
-Developed a computer vision system to identify visual defects and deformations in industrial production-line imagery.
-
-**Technologies:** PyTorch · Computer Vision · Deep Learning
-
----
-
-### 🦷 Dental Hygiene Virtual Assistant
-**Digilog · DAAD & Leipzig University · 2024**
-
-Contributed to a multimodal AI system for monitoring children's tooth-brushing habits using facial recognition and deep learning.
-
-**Technologies:** Deep Learning · Facial Recognition · Behavioral Tracking
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛰️ LiDAR Semantic Segmentation</h3>
+      <p><i>Lakehead University · Apr–Aug 2026</i></p>
+      <p>Deep learning 3D perception pipeline for autonomous driving: voxel-based segmentation architectures and LiDAR–camera feature fusion, trained and benchmarked on HPC across multiple datasets.</p>
+      <p><code>PyTorch</code> <code>CUDA</code> <code>HPC</code> <code>Point Clouds</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/isslemjomaa/LiDAR-Camera-Fusion-for-3D-Object-Detection">🚗 LiDAR–Camera Fusion for 3D Detection</a></h3>
+      <p><i>IMSR Engineering · Jun–Aug 2025</i></p>
+      <p>Dual-stream architecture with intermediate feature fusion and a 3D detection head on KITTI, integrated in ROS2 Humble and validated in Gazebo.</p>
+      <p><code>PyTorch</code> <code>ROS2</code> <code>Gazebo</code> <code>KITTI</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🗣️ Human–Robot Interaction (LLM + ROS2)</h3>
+      <p><i>Academic project · Nov 2025</i></p>
+      <p>Speech recognition plus a LLaMA-based NLP module that turns natural-language commands into robot actions, linking language understanding and robotic perception.</p>
+      <p><code>LLaMA</code> <code>ROS2</code> <code>Gazebo</code> <code>NLP</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/isslemjomaa/-Solar-Panel-Dust-Detection">☀️ Solar Panel Dust Detection</a></h3>
+      <p><i>PFA · Nov 2024–Apr 2025</i></p>
+      <p>CNN/VGG16 models for classifying dust accumulation on solar panels, with web interfaces for automated monitoring and notifications.</p>
+      <p><code>TensorFlow</code> <code>VGG16</code> <code>Web</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏭 Industrial Defect Detection</h3>
+      <p><i>Academic project · Oct 2025</i></p>
+      <p>PyTorch computer vision system for real-time deformation detection on industrial production lines.</p>
+      <p><code>PyTorch</code> <code>Computer Vision</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🦷 Dental Hygiene Virtual Assistant</h3>
+      <p><i>Digilog · DAAD & Leipzig University · Nov 2024</i></p>
+      <p>Real-time facial recognition and deep learning models to monitor children's brushing habits within a multimodal AI system.</p>
+      <p><code>Deep Learning</code> <code>Face Recognition</code></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 💼 Experience
 
-### 🔬 Research Collaborator — VIDLab, Lakehead University
-**Remote · 2026–Present**
-
-Exploring multimodal approaches for multi-drone object detection and tracking, including literature review, model development, and experimental evaluation as the project progresses.
-
-### 🛰️ AI Engineer Intern — Lakehead University
-**Thunder Bay, Canada · Apr–Aug 2026**
-
-Developed deep learning pipelines for LiDAR point-cloud segmentation, explored LiDAR–camera feature fusion, and trained and evaluated models using HPC resources.
-
-### 🤖 AI & Robotics Intern — IMSR Engineering
-**Tunisia · Jun–Aug 2025**
-
-Implemented a LiDAR–camera fusion architecture for 3D object detection and integrated the system into a ROS 2 and Gazebo simulation workflow.
-
-### 💻 IT Intern — Draexlmaier Group
-**Tunisia · Jun–Jul 2024**
-
-Developed a PowerApps helpdesk application integrating Power Automate for ticket management, automated alerts, and real-time dashboards.
-
----
-
-## 🏆 Awards & Achievements
-
-- 🥇 **1st Prize — JET'Impact:** VitaPaw, an AI-based animal health monitoring solution.
-- 🥈 **2nd Prize — International Process Optimization Challenge:** DAAD and Leipzig University.
-- 🎓 **Engineering Diploma — ENET'COM, 2026:** Excellent distinction.
-- 💡 **National Student Entrepreneur Status (SNEE), Level 2:** Étudiant Entrepreneur Innovateur.
-- 🤖 **Media Manager & Event Organizer:** EnetRobot 4.0 and EnetRobot 5.0, ENET'COM Robotics Club.
-- 📜 **Certification:** LLM Engineering in Practice with Streamlit and OpenAI — 365 Data Science.
-
----
-
-## 🌍 Languages
-
-- 🇹🇳 Arabic — Native
-- 🇫🇷 French — C1
-- 🇬🇧 English — B2
-- 🇩🇪 German — A1
-
----
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=isslemjomaa&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub statistics"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isslemjomaa&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=isslemjomaa&theme=tokyonight&hide_border=true" alt="GitHub contribution streak"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/isslemjomaa/isslemjomaa/output/github-snake-dark.svg" alt="GitHub contribution animation"/>
-</p>
+<table>
+  <tr>
+    <td width="24%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/Sept%202026%20%E2%80%93%20Present-2ea44f?style=for-the-badge"/><br/>
+      <sub>🇨🇦 Canada · Remote</sub>
+    </td>
+    <td valign="top">
+      <b>🔬 Research Collaborator</b><br/>
+      <i>VIDLab · Vision Intelligence and Data Laboratory</i><br/>
+      <sub>Multimodal learning for <b>multi-drone object detection &amp; tracking</b> from aerial data.</sub><br/>
+      <code>Multimodal AI</code> <code>Detection</code> <code>Tracking</code> <code>Drones</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="24%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/Apr%20%E2%80%93%20Aug%202026-2c5364?style=for-the-badge"/><br/>
+      <sub>🇨🇦 Thunder Bay, Canada</sub>
+    </td>
+    <td valign="top">
+      <b>🛰️ AI Engineer Intern (PFE) · Mitacs Globalink</b><br/>
+      <i>Lakehead University</i><br/>
+      <sub>LiDAR point cloud analysis, <b>from classification to semantic segmentation</b>: voxel-based architectures, LiDAR–camera feature fusion, and end-to-end training on HPC.</sub><br/>
+      <code>PyTorch</code> <code>CUDA</code> <code>HPC</code> <code>Point Clouds</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="24%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/Jun%20%E2%80%93%20Aug%202025-203a43?style=for-the-badge"/><br/>
+      <sub>🇹🇳 Tunisia</sub>
+    </td>
+    <td valign="top">
+      <b>🤖 AI &amp; Robotics Intern</b><br/>
+      <i>IMSR Engineering</i><br/>
+      <sub>Dual-stream <b>LiDAR–camera fusion</b> network with a 3D detection head on KITTI, deployed in ROS2 Humble and validated in Gazebo.</sub><br/>
+      <code>PyTorch</code> <code>ROS2</code> <code>Gazebo</code> <code>KITTI</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="24%" align="center" valign="top">
+      <img src="https://img.shields.io/badge/Jun%20%E2%80%93%20Jul%202024-0f2027?style=for-the-badge"/><br/>
+      <sub>🇹🇳 Tunisia</sub>
+    </td>
+    <td valign="top">
+      <b>💻 IT Intern</b><br/>
+      <i>Draexlmaier Group</i><br/>
+      <sub><b>PowerApps helpdesk</b> with Power Automate for ticket automation, alerting and real-time dashboards.</sub><br/>
+      <code>PowerApps</code> <code>Power Automate</code> <code>Dashboards</code>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🤝 Let's Connect
+## 🏆 Awards & achievements
 
-I'm interested in connecting with engineers, researchers, and teams working on AI, computer vision, robotics, autonomous systems, and industrial innovation.
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h1>🥇</h1>
+      <b>1st Prize</b><br/>
+      <sub>JET'Impact</sub><br/><br/>
+      <sub><i>VitaPaw</i>: AI-based animal health monitoring</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h1>🥈</h1>
+      <b>2nd Prize</b><br/>
+      <sub>International Process Optimization Challenge</sub><br/><br/>
+      <sub>DAAD · Leipzig University</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h1>🎓</h1>
+      <b>Engineering Diploma</b><br/>
+      <sub>Mention <i>Très Bien</i></sub><br/><br/>
+      <sub>ENET'COM · 2026</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h1>💡</h1>
+      <b>Student Entrepreneur (SNEE)</b><br/>
+      <sub>Level 2</sub><br/><br/>
+      <sub><i>Étudiant Entrepreneur Innovateur</i></sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h1>🤖</h1>
+      <b>Media Manager &amp; Event Organizer</b><br/>
+      <sub>EnetRobot 4.0 &amp; 5.0</sub><br/><br/>
+      <sub>ENET'COM Robotics Club</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h1>📜</h1>
+      <b>Certification</b><br/>
+      <sub>LLM Engineering in Practice</sub><br/><br/>
+      <sub>Streamlit &amp; OpenAI · 365 Data Science</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📊 GitHub stats
 
 <p align="center">
-  <a href="mailto:ijomaa@lakeheadu.ca">Email</a> ·
-  <a href="https://www.linkedin.com/in/your-linkedin">LinkedIn</a> ·
-  <a href="https://github.com/isslemjomaa">GitHub</a>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=isslemjomaa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isslemjomaa&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=isslemjomaa&theme=tokyonight&hide_border=true" />
 </p>
 
+<!-- Snake animation: needs the workflow in .github/workflows/snake.yml -->
 <p align="center">
-  <i>Thanks for visiting my profile! ✨</i>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isslemjomaa/isslemjomaa/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/isslemjomaa/isslemjomaa/output/github-snake.svg" />
+    <img alt="contribution snake animation" src="https://raw.githubusercontent.com/isslemjomaa/isslemjomaa/output/github-snake.svg" />
+  </picture>
+</p>
+
+<!-- ===================== FOOTER ===================== -->
+<p align="center">
+  <img src="footer.svg" width="100%"/>
 </p>
