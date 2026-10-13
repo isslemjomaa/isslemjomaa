@@ -240,3 +240,16 @@ class Islem:
 <p align="center">
   <img src="footer.svg" width="100%"/>
 </p>
+🤝 Let's Connect
+
+I'm interested in connecting with engineers, researchers, and teams working on AI, computer vision, robotics, autonomous systems, and industrial innovation.
+
+<p align="center">
+  <a href="mailto:ijomaa@lakeheadu.ca">Email</a> ·
+  <a href="https://www.linkedin.com/in/your-linkedin">LinkedIn</a> ·
+  <a href="https://github.com/isslemjomaa">GitHub</a>
+</p>
+
+<p align="center">
+  <i>Thanks for visiting my profile! ✨</i>
+</p>
