@@ -165,12 +165,48 @@ class Islem:
 
 ## 🏆 Awards & achievements
 
-- 🥇 **1st Prize, JET'Impact**: *VitaPaw*, AI-based animal health monitoring
-- 🥈 **2nd Prize, International Process Optimization Challenge**: DAAD, Leipzig University
-- 🎓 **Engineering Diploma with "Très Bien" honours**: ENET'COM, 2026
-- 💡 **National Student Entrepreneur Status (SNEE)**: Level 2, *Étudiant Entrepreneur Innovateur*
-- 🤖 **Media Manager & Event Organizer**: EnetRobot 4.0 & 5.0, ENET'COM Robotics Club
-- 📜 **Certification**: LLM Engineering in Practice with Streamlit and OpenAI (365 Data Science)
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h1>🥇</h1>
+      <b>1st Prize</b><br/>
+      <sub>JET'Impact</sub><br/><br/>
+      <sub><i>VitaPaw</i>: AI-based animal health monitoring</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h1>🥈</h1>
+      <b>2nd Prize</b><br/>
+      <sub>International Process Optimization Challenge</sub><br/><br/>
+      <sub>DAAD · Leipzig University</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h1>🎓</h1>
+      <b>Engineering Diploma</b><br/>
+      <sub>Mention <i>Très Bien</i></sub><br/><br/>
+      <sub>ENET'COM · 2026</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h1>💡</h1>
+      <b>Student Entrepreneur (SNEE)</b><br/>
+      <sub>Level 2</sub><br/><br/>
+      <sub><i>Étudiant Entrepreneur Innovateur</i></sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h1>🤖</h1>
+      <b>Media Manager &amp; Event Organizer</b><br/>
+      <sub>EnetRobot 4.0 &amp; 5.0</sub><br/><br/>
+      <sub>ENET'COM Robotics Club</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h1>📜</h1>
+      <b>Certification</b><br/>
+      <sub>LLM Engineering in Practice</sub><br/><br/>
+      <sub>Streamlit &amp; OpenAI · 365 Data Science</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
