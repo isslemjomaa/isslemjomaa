@@ -1,6 +1,6 @@
 <!-- ===================== HEADER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Islem%20Jomaa&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20%26%20Computer%20Vision%20Engineer%20%E2%80%A2%203D%20Perception&descAlignY=56&descSize=18" width="100%"/>
+  <img src="header.svg" width="100%" alt="Islem Jomaa — AI & Computer Vision Engineer"/>
 </p>
 
 <p align="center">
@@ -11,9 +11,7 @@
 
 <p align="center">
   <a href="mailto:ijomaa@lakeheadu.ca"><img src="https://img.shields.io/badge/Email-ijomaa%40lakeheadu.ca-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/www.linkedin.com/in/islem-jomaa-97278a1a9"><img src="https://img.shields.io/badge/LinkedIn-Islem%20Jomaa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=isslemjomaa&style=for-the-badge&color=2c5364&label=Profile+views" alt="profile views"/>
-</p>
+  <a href="https://www.linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-Islem%20Jomaa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a></p>
 
 ---
 
@@ -160,5 +158,5 @@ class Islem:
 
 <!-- ===================== FOOTER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer&animation=twinkling" width="100%"/>
+  <img src="footer.svg" width="100%"/>
 </p>
