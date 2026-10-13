@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="mailto:ijomaa@lakeheadu.ca"><img src="https://img.shields.io/badge/Email-ijomaa%40lakeheadu.ca-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://www.linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-Islem%20Jomaa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/www.linkedin.com/in/islem-jomaa-97278a1a9"><img src="https://img.shields.io/badge/LinkedIn-Islem%20Jomaa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=isslemjomaa&style=for-the-badge&color=2c5364&label=Profile+views" alt="profile views"/>
 </p>
 
