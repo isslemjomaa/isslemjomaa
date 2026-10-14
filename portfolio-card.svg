@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9F87FF"/>
+      <stop offset="0.45" stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#4D7CFE"/>
+    </linearGradient>
+    <radialGradient id="disc" cx="0.32" cy="0.28" r="0.8">
+      <stop offset="0" stop-color="#A994FF"/>
+      <stop offset="0.45" stop-color="#6A4BF5"/>
+      <stop offset="1" stop-color="#2B2081"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7C5CFF" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="win"><rect x="740" y="44" width="420" height="212" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .t  { font: 800 44px 'Poppins','Segoe UI',Helvetica,Arial,sans-serif; fill:#EEF0FF; }
+    .gt { fill:url(#grad); }
+    .s  { font: 500 19px 'Segoe UI',Helvetica,Arial,sans-serif; fill:#A6ACD4; }
+    .m  { font: 600 15px 'JetBrains Mono',Consolas,monospace; fill:#C9BCFF; letter-spacing:1px; }
+    .b  { font: 700 17px 'Segoe UI',Helvetica,Arial,sans-serif; fill:#fff; }
+    .big{ font: 800 28px 'Poppins','Segoe UI',Helvetica,Arial,sans-serif; fill:#EEF0FF; letter-spacing:-.5px; }
+    .chip{ font: 600 12px 'JetBrains Mono',Consolas,monospace; fill:#D9D2FF; }
+    .pulse { animation: pulse 3s ease-in-out infinite; transform-origin: 1035px 175px; }
+    @keyframes pulse { 0%,100% { opacity:.55; transform: scale(1); } 50% { opacity:1; transform: scale(1.12); } }
+    .arrow { animation: nudge 1.6s ease-in-out infinite; }
+    @keyframes nudge { 0%,100% { transform: translateX(0); } 50% { transform: translateX(6px); } }
+    .ring { animation: spin 40s linear infinite; transform-origin: 1035px 190px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .dot { fill:#3DDC97; animation: blip 2s ease-in-out infinite; }
+    @keyframes blip { 0%,100% { opacity:1; } 50% { opacity:.3; } }
+    .fade { opacity:0; animation: in 1s .2s ease-out forwards; }
+    @keyframes in { to { opacity:1; } }
+  </style>
+
+  <!-- card -->
+  <rect x="2" y="2" width="1196" height="296" rx="24" fill="#0A0E23" stroke="url(#grad)" stroke-width="2"/>
+  <circle cx="1035" cy="150" r="230" fill="url(#glow)"/>
+
+  <!-- left: text -->
+  <g class="fade">
+    <circle class="dot" cx="58" cy="62" r="5"/>
+    <text x="74" y="67" class="m">LIVE PORTFOLIO</text>
+    <text x="50" y="130" class="t">Explore my <tspan class="gt">portfolio</tspan></text>
+    <text x="50" y="168" class="s">Projects, experience, skills and contact, in one animated page.</text>
+
+    <g transform="translate(50 196)">
+      <rect width="304" height="52" rx="12" fill="#7C5CFF"/>
+      <text x="22" y="32" class="b">isslemjomaa.github.io</text>
+      <g class="arrow"><path d="M262 26 h18 m-7 -7 l7 7 l-7 7" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+    </g>
+
+    <g transform="translate(378 196)">
+      <rect width="138" height="24" rx="7" fill="#7C5CFF" fill-opacity=".12" stroke="#9F87FF" stroke-opacity=".3"/>
+      <text x="12" y="16" class="chip">Computer Vision</text>
+      <rect y="28" width="138" height="24" rx="7" fill="#7C5CFF" fill-opacity=".12" stroke="#9F87FF" stroke-opacity=".3"/>
+      <text x="12" y="44" class="chip">3D Perception</text>
+      <rect x="146" width="94" height="24" rx="7" fill="#7C5CFF" fill-opacity=".12" stroke="#9F87FF" stroke-opacity=".3"/>
+      <text x="158" y="16" class="chip">Robotics</text>
+      <rect x="146" y="28" width="94" height="24" rx="7" fill="#7C5CFF" fill-opacity=".12" stroke="#9F87FF" stroke-opacity=".3"/>
+      <text x="158" y="44" class="chip">PyTorch</text>
+    </g>
+  </g>
+
+  <!-- right: mini browser preview of the site -->
+  <rect x="740" y="44" width="420" height="212" rx="14" fill="#0D1230" stroke="#242C5E"/>
+  <g clip-path="url(#win)">
+    <rect x="740" y="44" width="420" height="30" fill="#121838"/>
+    <circle cx="760" cy="59" r="5" fill="#FF5F57"/><circle cx="777" cy="59" r="5" fill="#FEBC2E"/><circle cx="794" cy="59" r="5" fill="#28C840"/>
+    <rect x="814" y="50" width="200" height="18" rx="6" fill="#0A0E23"/>
+    <text x="826" y="63" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#A6ACD4">isslemjomaa.github.io</text>
+
+    <text x="762" y="112" class="big">VISION.</text>
+    <text x="762" y="146" class="big gt">PERCEPTION.</text>
+    <text x="762" y="180" class="big">ROBOTICS.</text>
+    <rect x="762" y="200" width="92" height="22" rx="6" fill="#7C5CFF"/>
+    <rect x="862" y="200" width="70" height="22" rx="6" fill="none" stroke="#242C5E"/>
+
+    <circle class="ring" cx="1035" cy="190" r="92" fill="none" stroke="#C9BCFF" stroke-opacity=".4" stroke-width="2" stroke-dasharray="6 7"/>
+    <circle class="pulse" cx="1035" cy="190" r="80" fill="url(#disc)"/>
+    <text x="1035" y="208" text-anchor="middle" font-family="Poppins,Segoe UI,Helvetica,Arial,sans-serif" font-weight="800" font-size="44" fill="#fff">IJ</text>
+  </g>
+</svg>
