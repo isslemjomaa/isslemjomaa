@@ -74,7 +74,7 @@ class Islem:
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛰️ LiDAR Semantic Segmentation</h3>
+      <h3><a href="https://github.com/isslemjomaa/pfe-lidar-segmentation">🛰️ LiDAR Semantic Segmentation</h3>
       <p><i>Final-year project · Lakehead University · Apr–Aug 2026</i></p>
       <p>Deep learning 3D perception pipeline for autonomous driving: voxel-based segmentation architectures trained and evaluated on HPC across multiple benchmark datasets, plus an exploration of LiDAR–camera feature fusion.</p>
       <p><code>PyTorch</code> <code>CUDA</code> <code>HPC</code> <code>Point Clouds</code></p>
