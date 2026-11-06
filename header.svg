@@ -34,5 +34,5 @@
         d="M0 170 Q150 205 300 170 T600 170 T900 170 T1200 170 T1500 170 T1800 170 V0 H0 Z"/>
 
   <text x="600" y="92" text-anchor="middle" class="title">Islem <tspan fill="url(#grad)">Jomaa</tspan></text>
-  <text x="600" y="135" text-anchor="middle" class="sub">Industrial Computer Engineer • Computer Vision • 3D Perception • Robotics</text>
+  <text x="600" y="135" text-anchor="middle" class="sub">Industrial Computer Engineer • AI • Computer Vision • Robotics</text>
 </svg>
